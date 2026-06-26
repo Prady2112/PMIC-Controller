@@ -2,9 +2,7 @@
 
 **Author:** Pradyumna Veer Verma
 
-![Verilog](https://img.shields.io/badge/Language-Verilog-blue.svg)
-![Simulation](https://img.shields.io/badge/Simulation-Icarus_Verilog-green.svg)
-![Level](https://img.shields.io/badge/Level-Undergraduate_Educational-orange.svg)
+
 
 This repository contains a Verilog-based Digital Power Management IC (PMIC) Controller designed to orchestrate safe power delivery in complex electronic systems. Built from the ground up to demonstrate fundamental digital logic concepts, the project features a parameterized Moore Finite State Machine (FSM) that enforces strict power-up sequencing across multiple voltage rails with built-in stability delays. Additionally, it integrates custom counter-based Pulse Width Modulation (PWM) generators for precise voltage regulation, alongside asynchronous fault-handling logic that guarantees instantaneous system shutdown in the event of over-current or thermal emergencies.
 
