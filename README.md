@@ -1,4 +1,4 @@
-# Basic Digital PMIC Controller
+# Digital PMIC Controller
 
 **Author:** Pradyumna Veer Verma
 
