@@ -10,7 +10,6 @@ This repository contains a Verilog-based Digital Power Management IC (PMIC) Cont
 *   **Power Sequencing**: A Moore FSM that safely sequences three distinct power rails (Core, Memory, I/O) sequentially, incorporating built-in stabilization delays between each stage.
 *   **PWM Generation**: Parameterized, counter-based Pulse Width Modulation (PWM) generators assigned to each rail, allowing for variable duty cycle control of connected DC-DC converters.
 *   **Fault Protection**: Instantaneous hardware shut-off triggered by an asynchronous fault signal, simulating critical Over-Current or Over-Temperature protection mechanisms.
-*   **Educational Codebase**: A streamlined, heavily documented codebase designed specifically for undergraduate studies in digital logic and hardware design.
 
 ## Architecture
 The project architecture consists of three primary modules interacting as shown below:
