@@ -61,31 +61,6 @@ stateDiagram-v2
     end note
 ```
 
-## Quick Start (Simulation)
-This design is fully compatible with open-source synthesis and simulation toolchains.
-
-### Prerequisites
-*   [Icarus Verilog](http://iverilog.icarus.com/) (Compilation and Simulation)
-*   [GTKWave](https://gtkwave.sourceforge.net/) (Waveform Analysis)
-
-### Running the Testbench
-1. Clone the repository and navigate to the project directory.
-2. Compile the Verilog source files:
-   ```bash
-   iverilog -o pmic_sim.vvp pwm_gen.v power_fsm.v pmic_top.v tb_pmic_top.v
-   ```
-3. Execute the simulation:
-   ```bash
-   vvp pmic_sim.vvp
-   ```
-4. A waveform dump named `pmic_simple.vcd` will be generated in the root directory.
-
-### Viewing the Waveforms
-Open GTKWave and load the generated `.vcd` file:
-```bash
-gtkwave pmic_simple.vcd
-```
-*Note: Expand the `tb_pmic_top` -> `uut` hierarchy within GTKWave to observe internal FSM state transitions, PWM outputs, and fault signal triggers.*
 
 ## Simulation & Hardware Results
 
