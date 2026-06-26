@@ -39,9 +39,9 @@ graph TD
     duty2((duty_rail2)) --> PWM2
     duty3((duty_rail3)) --> PWM3
     
-    PWM1 --> out1((pwm_out[0]))
-    PWM2 --> out2((pwm_out[1]))
-    PWM3 --> out3((pwm_out[2]))
+    PWM1 --> out1("pwm_out[0]")
+    PWM2 --> out2("pwm_out[1]")
+    PWM3 --> out3("pwm_out[2]")
 ```
 
 ### Finite State Machine (Power Sequencer)
